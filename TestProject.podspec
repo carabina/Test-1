@@ -19,4 +19,12 @@ s.license = 'MIT'
 s.ios.deployment_target = '7.0'
 #库文件路径
 s.source_files = 'TestProject/*'
+#依赖关系
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'JSONModel'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'YTKNetwork'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'ZXingObjC'
 end

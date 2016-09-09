@@ -1,0 +1,9 @@
+platform:ios,"7.0"
+target "TestProject" do
+	pod "YTKNetwork"
+	pod "Masonry"
+	pod "JSONModel"
+	pod "MJRefresh"
+	pod "ZXingObjC"
+        pod "MBProgressHUD"
+end
