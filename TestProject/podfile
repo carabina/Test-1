@@ -1,0 +1,5 @@
+platform:ios,"7.0"
+target"TestProject" do
+   pod "Masonry"
+   pod "YTKNetwork"
+end
